@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+nav{
+    text-align: right;
+    background-color: #FFF;
+    padding:1rem;
+}
+
+nav a{
+    color:#492503;
+    font-family: "Playfair", serif;
+    font-size: 2rem;
+    text-decoration: none;
+    padding-right: 1rem ;
+    background-color: #FFF;
+}
+
+#linha1{
+    display: flex;
+    padding: 5%;
+} 
+
+header{
+    padding-top: 10%;
+}
+
+img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+main{
+    padding: 5%;
+}
+
+h1{
+    font-family: "Playfair", serif;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    color: #492503;
+}
+
+main p{
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    color: #492503;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem ;
+    color: #492503;
+    padding: 5%;
+}
+
+section{
+    padding-bottom: 20%;
+}
+
+h2{
+    font-family: "Playfair", serif;
+    color:  #492503;
+    padding-left: 10%;
+    font-size: 3rem;
+    background-color: #FFF;
+    width: 25%;
+}
+
+h3{
+    font-family: "Playfair", serif;
+    font-size: 2rem;
+    color: #492503;
+    text-align: center;
+}
+
+ul{
+    padding-top: 5%;
+    display: flex;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    color: #492503;
+    background-color: #FFF;
+    border-radius: 5%;
+    margin-left: 13%;
+    width: 30%;
+}
+
+ul img{
+    width: 100%;
+}
+
+li p{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+#pag_contato{
+    padding-bottom: 5%;
+}
+
+#end_form{
+    display: flex;
+    margin-top: 5%;
+}
+
+#end_form ul{
+    float: inline-end;
+    flex-direction: column;
+    padding: 10% 20% 0 15%;
+}
+
+#end_form li{
+    font-family: "Roboto", sans-serif;
+    background-color: bisque;
+    width: 100%;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  width: 300px;
+}
+
+h3 {
+    font-family: "Playfair", serif;
+    text-align: center;
+    color: #492503;
+    margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  color: #492503;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #492503;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6a3a0a;
+}
+
+footer{
+    background-color: #000;
+}
+
+footer p, footer a{
+    font-family: "Roboto", sans-serif;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+footer a{
+    font-weight:bold;
+    text-decoration: none;
+    padding: 0;
+}
+
+
